@@ -48,7 +48,7 @@ Karmabhoomi offers a modular, role-based access platform with the following key 
 
 - **Frontend**: React.js (MERN stack)
 - **Backend**: Node.js with Express.js
-- **Database**: MongoDB / Firebase / PostgreSQL (as per configuration)
+- **Database**: MongoDB (as per configuration)
 - **Authentication**: JWT-based login with role distinction (Institution/Admin/User)
 
 ---
