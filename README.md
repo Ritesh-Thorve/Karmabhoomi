@@ -1,58 +1,72 @@
-# 🏛️ Karmabhoomi: Platform for Booking Public Training Assets
+# 🌐 Karmabhoomi
 
-**Aligned with the “Karmayogi” spirit, Karmabhoomi is a unified platform that enables government training institutes to register and manage their physical and human assets, and allows ministries or government users to search, discover, and book these resources efficiently.**
+**_Platform for Booking Public Training Assets_**  
+_Aligned with the “Karmayogi” spirit_
 
 ---
 
 ## 📌 What is Karmabhoomi?
 
-**Karmabhoomi** is a centralized web-based platform designed to bring visibility, structure, and booking capabilities to the vast training infrastructure managed by public sector institutions. This includes:
+**Karmabhoomi** is a unified digital platform designed to streamline the registration, discovery, and booking of physical and human assets owned by government training institutions across India.
 
-- Classrooms, seminar halls, hostels, labs
-- Faculty, instructors, and experts
-- Courses, certifications, and training programs
-
-Karmabhoomi simplifies the planning and coordination of inter-departmental training by allowing institutions to upload asset data and government users to discover and reserve assets based on real-time availability and filtering criteria.
+Institutes across the nation possess a wide range of resources—such as training halls, classrooms, hostels, labs, faculty, and programs—which are often underutilized due to a lack of visibility and coordination. Karmabhoomi enables these institutions to manage and share their infrastructure with government departments and organizations for collaborative training and development purposes.
 
 ---
 
 ## 🏛️ Who Introduced It?
 
-This project is initiated as part of the **Code for GovTech (C4GT) 2025** cohort under the **Ministry of Electronics and Information Technology (MeitY)** in collaboration with the **Karmayogi Bharat initiative**.
+This project is being developed as part of the **Code for GovTech (C4GT)** initiative under the guidance of the **Ministry of Electronics and Information Technology (MeitY)**, in alignment with the broader goals of the **Karmayogi Mission**.
 
-It aligns with the vision of the *Mission Karmayogi* program — a national effort to enhance the capacity and coordination of government functionaries through structured and digital-first training ecosystems.
+The platform reflects the digital public good vision of Karmayogi – India’s mission to reform capacity-building for civil servants through modern, interoperable, and transparent systems.
 
 ---
 
 ## 🎯 What Does It Do?
 
-### ➕ For Training Institutions (Admins)
-- Register on the platform as an institution
-- Add/update/delete physical and faculty assets
-- Manage bookings (accept/reject) and notify requesters
-- Track availability and usage of training assets
+Karmabhoomi offers a modular, role-based access platform with the following key features:
 
-### 🔍 For Government Users (General Users)
-- Sign up as a government official
-- Discover assets based on filters like location, capacity, date, and asset type
-- View details, availability, and request bookings
-- Get notified about status of their booking requests
+### 🏫 For Training Institutions (Admins)
+- Add and manage infrastructure assets (e.g., hostels, seminar halls, labs)
+- Provide detailed metadata (capacity, amenities, location, availability)
+- Accept, reject, or manage booking requests
+- Send notifications or emails to requesting organizations
+
+### 🧑‍💼 For Government Departments & Users
+- Discover assets via filters like location, purpose, or availability
+- View rich asset information (photos, specifications, usage instructions)
+- Submit booking requests or express interest in using an asset
+- View booking history and request status
 
 ### 🔐 Role-Based Access Control (RBAC)
-- Role-driven dashboards for **Institutions (Admins)** and **Government Users**
-- Role-specific permissions to ensure secure and appropriate access to resources
+- Institutions/Organizations have a dedicated **admin dashboard** for asset and booking management
+- Government users have a tailored **user dashboard** to explore and book assets
+- The system ensures each role sees and accesses only the relevant functionalities
 
 ---
 
-## 🛠️ Key Features
-- Asset Registry with searchable metadata
-- Booking engine with locking and approval flows
-- Admin and User dashboards (React frontend)
-- Node.js backend with MongoDB (MERN stack)
-- Modular architecture for future scalability
-- Email notifications for booking updates (optional)
+## 🔧 Built With
+
+- **Frontend**: React.js (MERN stack)
+- **Backend**: Node.js with Express.js
+- **Database**: MongoDB / Firebase / PostgreSQL (as per configuration)
+- **Authentication**: JWT-based login with role distinction (Institution/Admin/User)
 
 ---
 
-Stay tuned as we build **Karmabhoomi** — your digital gateway to public training assets across India 🇮🇳
+## 🔮 Vision
+
+To build a **national asset registry** that enhances transparency, utilization, and collaboration among government entities. Karmabhoomi promotes efficient planning and equitable use of public resources, in the true spirit of **digital governance and cooperative federalism**.
+
+---
+
+## 📫 Contact
+
+For contributions, issues, or queries:  
+**Developer**: Ritesh Thorve  
+**Program**: Code for GovTech 2025  
+**Project**: Karmayogi – Unified Asset Registry & Booking System  
+
+---
+
+> _"Karmabhoomi empowers those who build the future by sharing the tools to shape it."_
 
